@@ -1,3 +1,94 @@
-.footer {
+footer {
     text-align: center;
+    
+}
+
+.logo {
+    position: relative;
+    text-align: center;
+}
+
+
+.pretchange, .pretzel{
+    position: absolute;
+    transform: translate(-57%, -110%);
+    transition: opacity 0.1s ease;
+}
+
+.pretchange {
+    opacity:0;
+}
+
+.logo:hover .pretchange {
+    opacity:1;
+}
+
+.logo:hover .pretzel {
+    opacity: 0;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    margin-top: 130px;
+}
+  
+.nav-list a {
+    margin: 12px;
+    text-decoration: none;
+    font-family: 'Courier New', monospace;
+    background-color: #06B2BB;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.nav-list a:hover {
+    background-color: #F78828;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+}
+
+ul, footer{
+    font-size: 15px;
+    font-family: 'Courier New', monospace;
+}
+
+.course-list, .skill-list {
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+}
+
+.page-title {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+.about-text {
+    text-align: center;
+    margin: 12px;
+    text-decoration: none;
+    font-family: 'Courier New', monospace;
+    background-color: #fa5457da;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+    border-style: dashed;
+}
+
+.about-image {
+    width: 500px;
 }
