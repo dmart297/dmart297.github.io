@@ -1,6 +1,8 @@
 footer {
     text-align: center;
-    
+    padding: 20px;
+    color: #06B2BB;
+    font-family: 'Courier New', monospace;
 }
 
 body {
@@ -106,14 +108,13 @@ img {
     border: dashed white;
     border-radius: 10px;
     padding: 5px;
-    height: auto;
-    
 }
 
 .about-image{
     text-align: center;
     margin-bottom: -40px;
 }
+
 
 .check-link {
     margin: 12px auto;
@@ -181,8 +182,11 @@ img {
     border-color: white;
 }
 
+#submit {
+    background-color: #F78828;
+}
 #submit:hover{
-    background-color: #fa5457a8;
+    background-color: #f78928c4;
 }
 
 #label {
@@ -205,7 +209,42 @@ img {
     resize: vertical;
 }
 
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; 
+    background-color: #fa5457da;
+    border-style: dashed;
+    border-radius: 12px;
+    color: white;
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+}
+
+.port-pic {
+    width: 40%;
+}
+
+.port-pic img {
+    max-width: 100%; 
+    border-radius: 12px;
+    border: dashed 2px white;
+    padding: 10px;
+}
+
 .project-details {
+    width: 55%; 
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+.check-link {
+    text-decoration: none;
+    color: white;
     margin: 12px auto;
     text-decoration: none;
     font-family: 'Courier New', monospace;
@@ -216,8 +255,9 @@ img {
     border-radius: 12px;
     border-style: dashed;
     text-align: center;
-    background-color: #fa5457da;
+    background-color: #F78828;
     font-size: 18px;
     border-color: white;
-    float:right;
+    width: 20%;
 }
+
