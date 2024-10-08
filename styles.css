@@ -166,7 +166,7 @@ img {
 }
 
 
-#submit, #label {
+/*#submit, #label {
     margin: 12px auto;
     text-decoration: none;
     font-family: 'Courier New', monospace;
@@ -207,6 +207,23 @@ img {
     background-color: #ffffff;
     font-size: 18px;
     resize: vertical;
+}*/
+
+.contactinfo {
+    margin: 12px auto;
+    text-decoration: none;
+    font-family: 'Courier New', monospace;
+    color: rgb(255, 255, 255);
+    padding: 20px 32px;
+    display: block; 
+    font-size: 20px;
+    border-radius: 12px;
+    border-style: dashed;
+    text-align: center;
+    background-color: #fa5457da;
+    font-size: 18px;
+    border-color: white;
+    width: 30%;
 }
 
 .project {
