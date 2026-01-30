@@ -36,9 +36,9 @@ body {
 .nav-list {
     display: flex;
     flex-direction: row;
-    list-style: none;
     justify-content: center;
     margin-top: 130px;
+    align-items: center;
 }
   
 .nav-list a {
